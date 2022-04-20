@@ -131,14 +131,36 @@ color:#002D13;
   animation-name: boom;
   animation-duration: 3s;
   animation-iteration-count: infinite;
+        transform: scale(1);transform: translate(0px,0px);opacity:1;
 }
   
     @keyframes boom {
-   0%   {transform: scale(1);opacity: 1;}
+   0%   {transform: scale(1);transform: translate(0px,0px);opacity: 1;}
   25%  {}
-  66%  {transform: scale(1);opacity: 1;}
+        50%{transform: scale(1.25);transform: translate(-8px,8px);opacity: 0;}
+  66%  {}
   75%  {}
-  100% {transform: scale(1.125);opacity: 0;}
+  100% {transform: scale(1);transform: translate(0px,0px);opacity: 1;}
+}
+
+    .hero-title::after {
+  content: "Happy 420!";
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: boom2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+        transform: scale(1);transform: translate(0px,0px);opacity: 1;
+}
+  
+    @keyframes boom2 {
+   0%   {transform: scale(1);transform: translate(0px,0px);opacity: 1;}
+  25%  {}
+        50%{transform: scale(1.25);transform: translate(8px,-8px);opacity: 0;}
+  66%  {}
+  75%  {}
+  100% {transform: scale(1);transform: translate(0px,0px);opacity: 1;}
 }
     
 .hero-container .hero-description{
@@ -866,24 +888,24 @@ body {
 
     
 <section class="hero-section" style="background:#FFC700">
-<div class="hero-container container py-5 d-flex flex-column justify-content-center align-items-center " data-aos="fade">
+<div class="hero-container container py-5 d-flex flex-column justify-content-center align-items-center" data-aos="fade">
 <div class="row">
 
 <div class="col-12 col-lg-12 d-flex flex-column justify-content-center align-items-center">
 
-<h1 class="hero-title " data-aos="fade">Happy 420!</h1>
-<img class="img-fluid d-block d-none " src="images/shibam-text.png" style="max-height:70px;" data-aos="fade">
-<p class="hero-description text-center " data-aos="fade" style="max-width:600px;">Happy 420 is the biggest community-driven weed-related token on Binance Smart Chain.</p>
+<h1 class="hero-title" data-aos="fade">Happy 420!</h1>
+<img class="img-fluid d-block d-none" src="images/shibam-text.png" style="max-height:70px;" data-aos="fade">
+<p class="hero-description text-center" data-aos="fade" style="max-width:600px;z-index:2;position:relative;">Happy 420 is the biggest community-driven weed-related token on Binance Smart Chain.</p>
 <div class="d-flex flex-column flex-sm-row mt-3" style="z-index:2;">
 
-<a href="https://pancakeswap.finance/swap?inputCurrency=0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c&amp;outputCurrency=0xe013ec0334b5db573a491a1a6769625f58c1902c" target="_blank"><button class="pushable buy-pushable-button " data-aos="fade">
+<a href="https://pancakeswap.finance/swap?inputCurrency=0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c&amp;outputCurrency=0xe013ec0334b5db573a491a1a6769625f58c1902c" target="_blank"><button class="pushable buy-pushable-button" data-aos="fade">
   <span class="front">Buy On Pancakeswap</span>
-</button></a><a href="https://t.me/BSC420Happy" target="_blank"><button class="pushable telegram-pushable-button ms-sm-3 mt-3 mt-sm-0 w-100 " data-aos="fade">
+</button></a><a href="https://t.me/BSC420Happy" target="_blank"><button class="pushable telegram-pushable-button ms-sm-3 mt-3 mt-sm-0 w-100" data-aos="fade">
   <span class="front">Join Our Telegram</span>
 </button></a>
 </div>
 </div><div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center py-5">
-<img class="d-none img-fluid hero-img px-3 " src="images/logo-with-text.png" style="width:100%;" data-aos="fade">
+<img class="d-none img-fluid hero-img px-3" src="images/logo-with-text.png" style="width:100%;" data-aos="fade">
 
 
 
@@ -894,11 +916,11 @@ body {
 
 <section id="about" class="section about-section">
 <div class="section-container about-container container py-5">
-<h2 class="section-title about-title mt-4 text-center aos-init" data-aos="fade" style="z-index:2;">ABOUT</h2>
+<h2 class="section-title about-title mt-4 text-center aos-init" data-aos="fade" style="z-index:2;position:relative;">ABOUT</h2>
 
 <div class="row mt-4">
 <div class="col-12 text-center">
-<p class="section-description about-description aos-init" data-aos="fade" style="z-index:2;">Happy420 is a weed-related token deployed on the Binance Smart Chain through the BSC medium. It is community driven and backed by a strong team to deliver for investors with the goal of creating wealth and use case just by holding Happy420 tokens. To achieve this vision, a detailed roadmap is laid out and the liquidity is locked initially to grant investors confidence in this project.</p>
+<p class="section-description about-description aos-init" data-aos="fade" style="z-index:2;position:relative;">Happy420 is a weed-related token deployed on the Binance Smart Chain through the BSC medium. It is community driven and backed by a strong team to deliver for investors with the goal of creating wealth and use case just by holding Happy420 tokens. To achieve this vision, a detailed roadmap is laid out and the liquidity is locked initially to grant investors confidence in this project.</p>
 </div>
 </div>
 </div>
@@ -906,7 +928,7 @@ body {
 
 <section id="tokenomics" class="section tokenomics-section pt-5">
 <div class="section-container tokenomics-container container py-5">
-<h2 class="section-title tokenomics-title text-center aos-init" data-aos="fade" style="z-index:2;">TOKENOMICS</h2>
+<h2 class="section-title tokenomics-title text-center aos-init" data-aos="fade" style="z-index:2;position:relative;">TOKENOMICS</h2>
 <div class="row mb-4" style="margin-top:40px;">
 <h3 class="text-center mb-4" style="font-size:2em;z-index:2;">Buy Tax 10%</h3>
 
@@ -953,8 +975,8 @@ body {
 <section id="roadmap" class="section roadmap-section" style="background:#FFC700;">
 <div class="section-container roadmap-container container py-5 aos-init" data-aos="fade">
 <div class="text-center">
-<h2 class="section-title roadmap-title mt-4 aos-init" data-aos="fade" style="z-index:2;">ROADMAP</h2>
-<div class="row mt-4 mb-4" style="z-index:2;">
+<h2 class="section-title roadmap-title mt-4 aos-init" data-aos="fade" style="z-index:2;position:relative;">ROADMAP</h2>
+<div class="row mt-4 mb-4" style="z-index:2;position:relative;">
 <div class="col-12 col-lg-4 text-center py-3 aos-init" data-aos="fade">
 <h4 style="">PHASE 1</h4>
 <ul class="list-unstyled text-small text-center mt-3">
@@ -1002,7 +1024,7 @@ body {
 </div>
 </section>
 <section class="section swap-section d-none">
-<div class="section-container swap-container container py-5 " data-aos="fade">
+<div class="section-container swap-container container py-5" data-aos="fade">
 <div class="text-center">
 <h2 class="section-title swap-title mt-4 mb-4">PLATFORMS</h2>
 </div>
@@ -1036,7 +1058,7 @@ body {
 </div>
 </div>
 <div class="row mt-5">
-<div class="col"><p class="text-center m-0">Copyright © 2022 | All Rights Reserved</p></div>
+<div class="col"><p class="text-center m-0" style="z-index:2;position:relative;">Copyright © 2022 | All Rights Reserved</p></div>
 </div>
 </div>
 </footer>
@@ -1071,6 +1093,7 @@ AOS.init({
 
 });
 </script>
+
 
 
 
