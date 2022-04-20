@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en" style="scroll-behavior: smooth;"><head>
-<title>Home Page | Eggstreme Easter</title>
+<title>Home Page | Happy 420</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Introducing Eggstreme Easter, a project with a clever name that was developed by a clever team. This token is original and a breath of fresh air. There have been a plethora of unoriginal Easter tokens recently launched, but this one is looking to set itself apart from the pack. Will you take the dive and ape into the Eggstreme?">
@@ -58,8 +58,8 @@ url("/webfonts/BlinkKiss.svg#filename") format("svg");
 }
 	
 body{
-background:#171717;
-color:#ffffff;
+background:#FFC700;
+color:#002D13;
 font-family: 'Montserrat', sans-serif;
 font-size:16px;
 font-weight: normal;
@@ -108,6 +108,9 @@ letter-spacing:0em;
 /* HERO CONTAINER */
 
 .hero-container{
+    height: calc(100vh - 102.22px);
+    min-height: calc(640px - 102.22px);
+
 }
 
 
@@ -197,14 +200,14 @@ border: solid 1px #FFDE59 !important;
 }
 
 .section-container{
-color:#ffffff;
+color:#FFC700;
 }
 
 .section-title{
 font-size:3em;
 font-weight:700;
 /*text-shadow: 10px #2C174F;*/
-    text-shadow: -1px 0 #2C174F, 0 1px #2C174F, 1px 0 #2C174F, 0 -1px #2C174F;  
+   /* text-shadow: -1px 0 #2C174F, 0 1px #2C174F, 1px 0 #2C174F, 0 -1px #2C174F;  */
 }
 
 /* ---------------- */
@@ -212,11 +215,10 @@ font-weight:700;
 /* ABOUT SECTION */
 
 .about-section{
-background:#FEDC00;
+background:#002D13;
 }
 
 .about-container{
-color:#171717;
 padding-bottom:0 !important;
 }
 
@@ -232,11 +234,11 @@ padding-bottom:0 !important;
 /* TOKENOMICS SECTION */
 
 .tokenomics-section{
-background:#FEDC00;
+background:#002D13;
 }
 
 .tokenomics-container{
-color:#171717;
+color:#FFC700;
 padding-top:0 !important;
 }
 
@@ -247,10 +249,10 @@ padding-top:0 !important;
 }
 
 .tokenomics-container .tax-card{
- border:2px solid #171717;
+ border:2px solid #001E0C;
 border-radius:2em;
 max-width:480px;
-background:#171717;
+background:#001E0C;
 }
 
 .tokenomics-container .tax-title{
@@ -284,7 +286,7 @@ font-weight:400;
 }
 	
 .roadmap-container{
-color:#ffffff;
+color:#002D13;
 }
 
 .roadmap-container ul > li{
@@ -293,6 +295,7 @@ margin-top:4px;
 }
 
 .roadmap-container .roadmap-title{
+    color:#002D13;
 }
     
 /* ---------------- */
@@ -317,11 +320,11 @@ text-shadow: 2px 2px #73D672;
 /* FOOTER SECTION */
 
 .footer-section{
-background:#FEDC00;
+background:#002D13;
 }
 
 .footer-container{
-color:#171717;
+color:#FFC700;
 }
 
 .footer-container ul > li{
@@ -333,7 +336,7 @@ margin-bottom:8px;
 }
 
 .footer-container a{
-color:#171717;
+color:#FFC700;
 font-size:1.25em;
 font-weight:500;
 }
@@ -405,13 +408,15 @@ position:static !important;
 
 .nav-link{
 padding:12px;
-color:#171717 !important;
+color:#002D13 !important;
     text-transform:capitalize;
     font-size:1.125em;
     font-weight:500;
 }
 
-    
+ .nav-link:hover{
+     color:#FEDD59;
+ }   
 
 .navbar-toggler-icon{
 background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'%0Awidth='480' height='480'%0AviewBox='0 0 24 24'%0Astyle=' fill:%23171717;'%3E%3Cpath d='M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z'%3E%3C/path%3E%3C/svg%3E") !important;
@@ -446,7 +451,7 @@ z-index:3;
 
     .nav-link{
 padding:12px;
-color:#FFFFFF !important;
+color:#002D13 !important;
     text-transform:capitalize;
     font-size:1.125em;
     font-weight:500;
@@ -521,24 +526,24 @@ background: #FEDC00;
 
     
 <section class="hero-section">
-<div class="hero-container container py-5 pt-lg-0 pb-lg-4" data-aos="fade">
+<div class="hero-container container py-5 d-flex flex-column justify-content-center align-items-center" data-aos="fade">
 <div class="row">
 
-<div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start">
+<div class="col-12 col-lg-12 d-flex flex-column justify-content-center align-items-center">
 
-<h1 class="hero-title" data-aos="fade">EGGSTREME EASTER</h1>
+<h1 class="hero-title aos-init aos-animate" data-aos="fade">Happy 420!</h1>
 <img class="img-fluid d-block d-none aos-init aos-animate" src="images/shibam-text.png" style="max-height:70px;" data-aos="fade">
-<p class="hero-description" data-aos="fade">Are you ready for the most extreme BSC launch of this Easter? If you answered yes, then you are in luck!</p>
+<p class="hero-description aos-init aos-animate" data-aos="fade">Are you ready for the most extreme BSC launch of this Easter? If you answered yes, then you are in luck!</p>
 <div class="d-flex flex-column flex-sm-row mt-3">
 <a type="button" class="d-none buy-button btn btn-primary m-2 aos-init aos-animate" href="https://mm.finance/swap?outputCurrency=0x7be290f190a88380b56d5a16d54684befbdee154" target="_blank" data-aos="fade">Buy On MMSwap</a>
-<a type="button" class="d-none telegram-button btn btn-primary m-2" href="https://t.me/crogo" target="_blank">Join Our Telegram</a><a href="https://pancakeswap.finance/swap?inputCurrency=0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c&outputCurrency=0xa0468c1652caba8dcd1f84ab498af4165784f429" target="_blank"><button class="pushable buy-pushable-button" data-aos="fade">
+<a type="button" class="d-none telegram-button btn btn-primary m-2" href="https://t.me/crogo" target="_blank">Join Our Telegram</a><a href="https://pancakeswap.finance/swap?inputCurrency=0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c&amp;outputCurrency=0xa0468c1652caba8dcd1f84ab498af4165784f429" target="_blank"><button class="pushable buy-pushable-button aos-init aos-animate" data-aos="fade">
   <span class="front">Buy On Pancakeswap</span>
-</button></a><a href="https://t.me/EggstremeEaster" target="_blank"><button class="pushable telegram-pushable-button ms-sm-3 mt-3 mt-sm-0 w-100" data-aos="fade">
+</button></a><a href="https://t.me/EggstremeEaster" target="_blank"><button class="pushable telegram-pushable-button ms-sm-3 mt-3 mt-sm-0 w-100 aos-init aos-animate" data-aos="fade">
   <span class="front">Join Our Telegram</span>
 </button></a>
 </div>
 </div><div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center py-5">
-<img class="img-fluid hero-img px-3" src="images/logo-with-text.png" style="width:100%;" data-aos="fade">
+<img class="d-none img-fluid hero-img px-3 aos-init aos-animate" src="images/logo-with-text.png" style="width:100%;" data-aos="fade">
 
 
 
@@ -549,11 +554,11 @@ background: #FEDC00;
 
 <section id="about" class="section about-section">
 <div class="section-container about-container container py-5">
-<h2 class="section-title about-title mt-4 text-center" data-aos="fade">ABOUT</h2>
+<h2 class="section-title about-title mt-4 text-center aos-init aos-animate" data-aos="fade">ABOUT</h2>
 
 <div class="row mt-4">
 <div class="col-12 text-center">
-<p class="section-description about-description" data-aos="fade">Introducing Eggstreme Easter, a project with a clever name that was developed by a clever team. This token is original and a breath of fresh air. There have been a plethora of unoriginal Easter tokens recently launched, but this one is looking to set itself apart from the pack. Will you take the dive and ape into the Eggstreme?</p>
+<p class="section-description about-description aos-init" data-aos="fade">Introducing Eggstreme Easter, a project with a clever name that was developed by a clever team. This token is original and a breath of fresh air. There have been a plethora of unoriginal Easter tokens recently launched, but this one is looking to set itself apart from the pack. Will you take the dive and ape into the Eggstreme?</p>
 </div>
 </div>
 </div>
@@ -561,23 +566,23 @@ background: #FEDC00;
 
 <section id="tokenomics" class="section tokenomics-section pt-5">
 <div class="section-container tokenomics-container container py-5">
-<h2 class="section-title tokenomics-title text-center" data-aos="fade">TOKENOMICS</h2>
+<h2 class="section-title tokenomics-title text-center aos-init" data-aos="fade">TOKENOMICS</h2>
 <div class="row mb-4" style="margin-top:40px;">
 
 <div class="col-12 col-lg-4 mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade">
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto aos-init" data-aos="fade">
 <span class="tax-title text-center mb-3">2%</span>
 <span class="tax-title-2 text-center">Rewards</span><span class="tax-description text-center"></span>
 </div>
 </div>
 <div class="col-12 col-lg-4 mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade">
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto aos-init" data-aos="fade">
 <span class="tax-title text-center mb-3">3%</span>
 <span class="tax-title-2 text-center">Liquidity Pool</span><span class="tax-description text-center"></span>
 </div>
 </div>
 <div class="col-12 col-lg-4 mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade">
+<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto aos-init" data-aos="fade">
 <span class="tax-title text-center mb-3">8%</span>
 <span class="tax-title-2 text-center">Marketing</span><span class="tax-description text-center"></span>
 </div>
@@ -644,7 +649,7 @@ background: #FEDC00;
 <li class="d-flex flex-row-reverse align-items-center m-0"><div style="margin-top:-15px;margin-right:-50px;height:75px;width:75px;background:#FCC875;border-radius:50%;border:15px solid #8D5CBA;" class="d-flex flex-row align-items-center justify-content-center"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M18.513 7.119c.958-1.143 1.487-2.577 1.487-4.036v-3.083h-16v3.083c0 1.459.528 2.892 1.487 4.035l3.086 3.68c.567.677.571 1.625.009 2.306l-3.13 3.794c-.936 1.136-1.452 2.555-1.452 3.995v3.107h16v-3.107c0-1.44-.517-2.858-1.453-3.994l-3.13-3.794c-.562-.681-.558-1.629.009-2.306l3.087-3.68zm-4.639 7.257l3.13 3.794c.652.792.996 1.726.996 2.83h-12c0-1.104.343-2.039.996-2.829l3.129-3.793c1.167-1.414 1.159-3.459-.019-4.864l-3.086-3.681c-.66-.785-1.02-1.736-1.02-2.834h12c0 1.101-.363 2.05-1.02 2.834l-3.087 3.68c-1.177 1.405-1.185 3.451-.019 4.863z"></path></svg></div><div style="z-index:-1;height:45px;padding:12px 70px;background:#5E3D7C;margin-right:-24px;margin-top:-15px;">100k MC</div></li>
 </ul></div>
 </div><div class="d-flex d-lg-none row mt-3 aos-init aos-animate" data-aos="fade"><div class="col-12 col-lg-6"><div class="phase-title-wrapper mx-auto mx-lg-0 ms-lg-auto d-flex flex-column justify-content-center align-items-center" style="height:200px;width:200px;border:4px solid #FCC875;border-radius:50%;background:#3D2851"><h3 style="font-weight:700;font-size:2em;">PHASE 3</h3></div></div>
-<div class="col-12 col-lg-6 mt-4"><ul class="list-unstyled" >
+<div class="col-12 col-lg-6 mt-4"><ul class="list-unstyled">
 
 
 <li class="d-flex flex-row align-items-center m-0"><div style="margin-left:-15px;margin-top:-15px;;min-height:75px;min-width:75px;background:#FCC875;border-radius:50%;border:15px solid #8D5CBA;" class="d-flex flex-row align-items-center justify-content-center"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M18.513 7.119c.958-1.143 1.487-2.577 1.487-4.036v-3.083h-16v3.083c0 1.459.528 2.892 1.487 4.035l3.086 3.68c.567.677.571 1.625.009 2.306l-3.13 3.794c-.936 1.136-1.452 2.555-1.452 3.995v3.107h16v-3.107c0-1.44-.517-2.858-1.453-3.994l-3.13-3.794c-.562-.681-.558-1.629.009-2.306l3.087-3.68zm-4.639 7.257l3.13 3.794c.652.792.996 1.726.996 2.83h-12c0-1.104.343-2.039.996-2.829l3.129-3.793c1.167-1.414 1.159-3.459-.019-4.864l-3.086-3.681c-.66-.785-1.02-1.736-1.02-2.834h12c0 1.101-.363 2.05-1.02 2.834l-3.087 3.68c-1.177 1.405-1.185 3.451-.019 4.863z"></path></svg></div><div style="font-size:0.875em;z-index:-1;height:45px;padding:12px 40px;background:#5E3D7C;margin-left:-24px;margin-top:-15px;width:100%;white-space:nowrap;overflow:hidden;">Meme Contests</div></li>
@@ -673,7 +678,7 @@ background: #FEDC00;
 </ul></div>
 </div>
 
-<div class="d-none d-lg-flex row mt-5" data-aos="fade"><div class="col-12 col-lg-6 order-sm-1 order-lg-2"><div class="phase-title-wrapper mx-auto mx-lg-0 me-lg-auto d-flex flex-column justify-content-center align-items-center" style="height:285px;width:285px;border:4px solid #FCC875;border-radius:50%;background:#3D2851"><h3 style="font-weight:700;font-size:2em;">PHASE 4</h3></div></div>
+<div class="d-none d-lg-flex row mt-5 aos-init aos-animate" data-aos="fade"><div class="col-12 col-lg-6 order-sm-1 order-lg-2"><div class="phase-title-wrapper mx-auto mx-lg-0 me-lg-auto d-flex flex-column justify-content-center align-items-center" style="height:285px;width:285px;border:4px solid #FCC875;border-radius:50%;background:#3D2851"><h3 style="font-weight:700;font-size:2em;">PHASE 4</h3></div></div>
 <div class="col-12 col-lg-6 order-sm-2 order-lg-1"><ul class="list-unstyled"><li class="d-flex flex-row-reverse align-items-center m-0"><div style="margin-top:-15px;margin-right:-50px;height:75px;width:75px;background:#FCC875;border-radius:50%;border:15px solid #8D5CBA;" class="d-flex flex-row align-items-center justify-content-center"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M18.513 7.119c.958-1.143 1.487-2.577 1.487-4.036v-3.083h-16v3.083c0 1.459.528 2.892 1.487 4.035l3.086 3.68c.567.677.571 1.625.009 2.306l-3.13 3.794c-.936 1.136-1.452 2.555-1.452 3.995v3.107h16v-3.107c0-1.44-.517-2.858-1.453-3.994l-3.13-3.794c-.562-.681-.558-1.629.009-2.306l3.087-3.68zm-4.639 7.257l3.13 3.794c.652.792.996 1.726.996 2.83h-12c0-1.104.343-2.039.996-2.829l3.129-3.793c1.167-1.414 1.159-3.459-.019-4.864l-3.086-3.681c-.66-.785-1.02-1.736-1.02-2.834h12c0 1.101-.363 2.05-1.02 2.834l-3.087 3.68c-1.177 1.405-1.185 3.451-.019 4.863z"></path></svg></div><div style="z-index:-1;height:45px;padding:12px 70px;background:#5E3D7C;margin-right:-24px;margin-top:-15px;">Staking</div></li>
 
 <li class="d-flex flex-row-reverse align-items-center m-0"><div style="margin-top:-15px;margin-right:-25px;height:75px;width:75px;background:#FCC875;border-radius:50%;border:15px solid #8D5CBA;" class="d-flex flex-row align-items-center justify-content-center"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M18.513 7.119c.958-1.143 1.487-2.577 1.487-4.036v-3.083h-16v3.083c0 1.459.528 2.892 1.487 4.035l3.086 3.68c.567.677.571 1.625.009 2.306l-3.13 3.794c-.936 1.136-1.452 2.555-1.452 3.995v3.107h16v-3.107c0-1.44-.517-2.858-1.453-3.994l-3.13-3.794c-.562-.681-.558-1.629.009-2.306l3.087-3.68zm-4.639 7.257l3.13 3.794c.652.792.996 1.726.996 2.83h-12c0-1.104.343-2.039.996-2.829l3.129-3.793c1.167-1.414 1.159-3.459-.019-4.864l-3.086-3.681c-.66-.785-1.02-1.736-1.02-2.834h12c0 1.101-.363 2.05-1.02 2.834l-3.087 3.68c-1.177 1.405-1.185 3.451-.019 4.863z"></path></svg></div><div style="z-index:-1;height:45px;padding:12px 70px;background:#5E3D7C;margin-right:-24px;margin-top:-15px;">NFT Platform</div></li>
@@ -689,20 +694,20 @@ background: #FEDC00;
 <section id="roadmap" class="section roadmap-section">
 <div class="section-container roadmap-container container py-5 aos-init" data-aos="fade">
 <div class="text-center">
-<h2 class="section-title roadmap-title mt-4 aos-init" data-aos="fade" style="color:#FEDC00">ROADMAP</h2>
+<h2 class="section-title roadmap-title mt-4 aos-init" data-aos="fade">ROADMAP</h2>
 <div class="row mt-4 mb-4">
-<div class="col-12 col-lg-4 text-center py-3" data-aos="fade">
-<h4 style="color:#FDDB00">PHASE 1</h4>
+<div class="col-12 col-lg-4 text-center py-3 aos-init" data-aos="fade">
+<h4 style="">PHASE 1</h4>
 <ul class="list-unstyled text-small text-center mt-3">
-<li>Telegram and Twitter Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FDDB00" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
-<li>Initial Marketing Campaign<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FDDB00" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
-<li>Pancakeswap Fair Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FDDB00" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
-<li>LP Lock Extension<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FDDB00" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
-<li>Website V1 Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FDDB00" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>Telegram and Twitter Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#002D13" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>Initial Marketing Campaign<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#002D13" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>Pancakeswap Fair Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#002D13" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>LP Lock Extension<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#002D13" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
+<li>Website V1 Launch<svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#002D13" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"></path></svg></li>
 </ul>
 </div>
-<div class="col-12 col-lg-4 text-center py-3" data-aos="fade">
-<h4 style="color:#FDDB00">PHASE 2</h4>
+<div class="col-12 col-lg-4 text-center py-3 aos-init" data-aos="fade">
+<h4 style="">PHASE 2</h4>
 <ul class="list-unstyled text-small text-center mt-3">
 <li>Community Shilling</li>
 <li>Coin Listing Sites</li>
@@ -711,8 +716,8 @@ background: #FEDC00;
 <li>Coinmarketcap Listing</li>
 </ul>
 </div>
-<div class="col-12 col-lg-4 text-center py-3"  data-aos="fade">
-<h4 style="color:#FDDB00">PHASE 3</h4>
+<div class="col-12 col-lg-4 text-center py-3 aos-init" data-aos="fade">
+<h4 style="">PHASE 3</h4>
 <ul class="list-unstyled text-small text-center mt-3">
 <li>Merchandise Launch</li>
 <li>Staking Platform Launch</li>
@@ -807,5 +812,6 @@ AOS.init({
 
 });
 </script>
+
 
 </body></html>
